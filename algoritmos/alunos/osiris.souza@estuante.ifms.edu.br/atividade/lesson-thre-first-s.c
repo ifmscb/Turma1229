@@ -23,7 +23,7 @@ int main()
   printf("Informe o quarto numero: ");
   scanf("%f", &four);
 
-  media = (first * 1 + second * 2, third * 3, four * 4) / 10;
+  media = (first * 1 + second * 2 + third * 3 + four * 4) / 10;
 
   printf("A media ponderada foi de: %f", media);
 }
