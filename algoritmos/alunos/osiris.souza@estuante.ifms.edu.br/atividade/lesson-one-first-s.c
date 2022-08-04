@@ -9,11 +9,11 @@
 int main()
 {
 
-  // declaração de variáveis
+  // Declaração de variáveis
   int numberRecived = 0;
   int calcOne, calcTwo, returnCalc;
 
-  // Inputs
+  // Interação com usuário
   printf("Oi, digite um numero: ");
   scanf("%i", &numberRecived);
 

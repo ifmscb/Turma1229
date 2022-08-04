@@ -10,22 +10,23 @@
 
 int main()
 {
-  // declaração de variável
+  // Declaração de variável
   float height, width;
 
+  // Interação com usuário
   printf("digite uma altura: \n");
   scanf("%f", &height);
 
   printf("digite uma base: \n");
   scanf("%f", &width);
 
-  // Calculando Area
+  // Calculando Area com Declaração
   float calcArea = height * width;
 
-  // Calculo de Perimetro
+  // Calculo de Perimetro com Declaração
   float calcPerimeter = (height * 2) + (width * 2);
 
-  // Calculo Hipotenuza
+  // Calculo Hipotenuza com Declaração
   float hipo = sqrt(pow(height, 2) + pow(width, 2));
 
   // Retorno final
