@@ -12,7 +12,7 @@ int main(){
 
 /*
   IGNORE ISSO.
-  Github Page: https://github.com/ifmscb-ads-turma-1229/algoritmos
+  Github Page: https://github.com/ifmscb-ads-turma-1229/
   Download do compilador C C++: https://sourceforge.net/projects/orwelldevcpp/
 
   from vscode

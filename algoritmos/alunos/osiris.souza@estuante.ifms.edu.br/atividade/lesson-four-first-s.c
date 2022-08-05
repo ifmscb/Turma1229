@@ -18,11 +18,11 @@ int main()
   scanf("%f", &firstNumber);
 
   // Calculo com declaração
-  int secondNumber = firstNumber * 2;
+  float secondNumber = firstNumber * 2;
   thirdNumber = sqrt(firstNumber);
 
   // Retorno Final
-  printf("O Valor digitado foi: %.3f\nO Valor ao quardado foi: %i\nO valor da raiz foi de: %.3f",
+  printf("O Valor digitado foi: %.3f\nO Valor ao quardado foi: %f\nO valor da raiz foi de: %.3f",
          firstNumber,
          secondNumber,
          thirdNumber);
