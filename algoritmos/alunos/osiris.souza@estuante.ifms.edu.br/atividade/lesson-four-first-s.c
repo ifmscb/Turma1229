@@ -11,7 +11,7 @@
 int main()
 {
   // Declaração de variável
-  float firstNumber, thirdNumber;
+  float firstNumber;
 
   // Interação com usuário
   printf("Oi, digite um numero: ");
@@ -19,7 +19,7 @@ int main()
 
   // Calculo com declaração
   float secondNumber = firstNumber * 2;
-  thirdNumber = sqrt(firstNumber);
+  float thirdNumber = sqrt(firstNumber);
 
   // Retorno Final
   printf("O Valor digitado foi: %.3f\nO Valor ao quardado foi: %f\nO valor da raiz foi de: %.3f",
