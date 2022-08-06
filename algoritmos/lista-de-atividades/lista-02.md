@@ -18,6 +18,8 @@
 
 - [ ] c) Diagonal
 
+![atividade 2 - lista 2 ](https://github.com/ifmscb-ads-turma-1229/primeiro-semestre/blob/main/doc/img/list-02-exer02.png)
+
 ### 3. Escreva um algoritmo que receba a razão de uma PA (progressão aritmética) e o valor do seu primeiro termo e imprima o décimo termo da série.
 
 - [ ] Done
