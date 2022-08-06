@@ -10,10 +10,10 @@
 
 5. Escreva um algoritmo que receba a base e a altura de um retângulo e imprimas as seguintes saídas:
 
-a) Perímetro
+[ ] a) Perímetro
 
-b) Área
+[ ] b) Área
 
-c) Diagonal
+[ ] c) Diagonal
 
-![exer 05](doc\img\list-01-exer05.png)
+![exer 05](https://github.com/ifmscb-ads-turma-1229/primeiro-semestre/blob/main/doc/img/list-01-exer05.png)
