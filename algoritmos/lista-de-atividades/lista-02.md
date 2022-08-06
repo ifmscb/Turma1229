@@ -1,9 +1,11 @@
 # Lista de atividade 02
 
-1. Escreva um algoritmo que receba o raio de um círculo e imprima as seguintes saídas
+1. Escreva um algoritmo que receba o raio de um círculo e imprima as seguintes saídas:
 
 [ ] a) Perímetro
+
 [ ] b) Área
+
 [ ] c) Diâmetro
 
 ![atividade 1 - lista 2 ](https://github.com/ifmscb-ads-turma-1229/primeiro-semestre/blob/main/doc/img/list-02-exer01.png)
