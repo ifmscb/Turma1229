@@ -19,5 +19,7 @@ int main()
 
   area = pi * raio * 2;
 
-  printf("retorno %f", area);
+  printf("retorno diametro %f\nvalor da area %f",
+         diametro,
+         area);
 }
