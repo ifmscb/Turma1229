@@ -23,4 +23,4 @@ int main()
   printf("Salario Bruto ----> %.2f\n", salarioBruto);
   printf("Salario Liquido --- > %.2f\n ", salarioLiquido);
   
-  } 
+} 
