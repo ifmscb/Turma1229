@@ -10,6 +10,7 @@ int main()
 {
     float const salario= 1212.00, desconto = 0.10, multa = 0.15; 
     float watts= 0.6, teste;
+    
     printf("digite o watts");
     scanf("%f",& teste);
     
