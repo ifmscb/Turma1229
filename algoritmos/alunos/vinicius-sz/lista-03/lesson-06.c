@@ -30,12 +30,11 @@ int main()
   printf("A quantidade de moeda de 0.25 foi de: %.0f\n", recebe25);
   printf("A quantidade de moeda de 0.50 foi de: %.0f\n", recebe50);
   printf("A quantidade de moeda de 1.00 foi de: %.0f\n", recebe01);
-  
+
   printf("A quantidade total de moeda de 0.25 foi de: %.2f\n", calcOne);
   printf("A quantidade total de moeda de 0.50 foi de: %.2f\n", calcTwo);
   printf("A quantidade total de moeda de 1.00 foi de: %.2f\n", calcTree);
-  
+
   printf("Soma total: %.2f\n", final);
-  printf("Soma total anual: %.2f\n", anual );
- 
+  printf("Soma total anual: %.2f\n", anual);
 }
