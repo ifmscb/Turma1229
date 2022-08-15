@@ -12,14 +12,15 @@ int main()
   float perimetro, area, diametro, raio;
   float const pi = 3.14;
 
-  printf("raio ");
+  printf("digite o valor raio: ");
   scanf("%f", &raio);
 
-  diametro = raio * raio;
+  area = (pi * pow(raio, 2));
+  diametro = raio * 2;
+  perimetro = 2 * pi * raio;
 
-  area = pi * raio * 2;
-
-  printf("retorno diametro %f\nvalor da area %f",
+  printf("Valor do diametro: %f\nValor da perimetro: %f\nValor da Area: %f",
          diametro,
+         perimetro,
          area);
 }

@@ -18,7 +18,7 @@ int main()
 
   dimensao = largura * comprimento;
   valorTerreno = dimensao * valorMedio;
-20
+
   printf("%.2f x %.2f = %.2f metros quadrados \n", largura , comprimento, dimensao);
 
   printf("Preco medio do terreno : %.2f" , valorTerreno);

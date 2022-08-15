@@ -14,7 +14,7 @@ int main()
   printf("insira o valor do produto: ");
   scanf("%f", &valorDoProduto); // input
 
-  descontoDinheiro = valorDoProduto * 0.1;
+  descontoDinheiro = valorDoProduto * 0.10;
   descontoCartao = valorDoProduto * 0.05;
 
   valorComCartao = valorDoProduto - descontoCartao;
