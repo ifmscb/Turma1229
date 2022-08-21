@@ -24,7 +24,7 @@
 
 - [ ] c) Diagonal
 
-![exer 05](public/img/lista-de-atividade/lista-01/list-01-exer05.png)
+![exer 05](https://github.com/ifmsCorumbaTurma1229/primeiro-semestre/blob/e10473668c87cecc8ff36d3b9fc845755b238982/public/img/lista-de-atividade/lista-01/list-01-exer05.png)
 
 ---
 
