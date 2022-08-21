@@ -47,3 +47,13 @@
 - [ ] d) O valor, em reais, a ser pago em caso de atraso com multa de 15% sobre o valor final da fatura;
 
 - [ ] Ao terminar a lista envie para avaliação no moodle
+
+---
+
+- [ ] Lista Finalizada
+
+---
+
+> Ao finalizar envie para correção no Moodle [Clicando Aqui](https://ead.ifms.edu.br)
+
+#### Mantido e Organizado pela gestão da turma 1229.

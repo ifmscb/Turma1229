@@ -39,3 +39,13 @@
 ### 6. Astrogilda tem um cofre onde guardou, durante todo ano, moedas de R$ 0.25, R$ 0.50 e R$ 1.00. Escreva um algoritmo que receba a quantidade que Astrogilda possui de cada uma dessas moedas e apresente o valor total que ela possui.
 
 - [ ] Done
+
+---
+
+- [ ] Lista Finalizada
+
+---
+
+> Ao finalizar envie para correção no Moodle [Clicando Aqui](https://ead.ifms.edu.br)
+
+#### Mantido e Organizado pela gestão da turma 1229.
