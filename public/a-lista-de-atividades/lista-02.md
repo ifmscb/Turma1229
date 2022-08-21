@@ -8,7 +8,7 @@
 
 - [ ] c) Diâmetro
 
-![atividade 1 - lista 2 ](https://github.com/ifmscb-ads-turma-1229/primeiro-semestre/blob/main/doc/img/list-02-exer01.png)
+![atividade 1 - lista 2 ](https://github.com/ifmsCorumbaTurma1229/primeiro-semestre/blob/217370551ff27c9f2127051d54828937ea89158a/public/img/lista-de-atividade/lista-02/list-02-exer01.png)
 
 #### 2. Escreva um algoritmo que receba o lado de um quadrado e imprima as seguintes saídas:
 
@@ -18,7 +18,7 @@
 
 - [ ] c) Diagonal
 
-![atividade 2 - lista 2 ](https://github.com/ifmscb-ads-turma-1229/primeiro-semestre/blob/main/doc/img/list-02-exer02.png)
+![atividade 2 - lista 2 ](https://github.com/ifmsCorumbaTurma1229/primeiro-semestre/blob/217370551ff27c9f2127051d54828937ea89158a/public/img/lista-de-atividade/lista-02/list-02-exer02.png)
 
 #### 3. Escreva um algoritmo que receba a razão de uma PA (progressão aritmética) e o valor do seu primeiro termo e imprima o décimo termo da série.
 

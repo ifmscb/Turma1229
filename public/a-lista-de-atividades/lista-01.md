@@ -24,7 +24,7 @@
 
 - [ ] c) Diagonal
 
-![exer 05](https://github.com/ifmscb-ads-turma-1229/primeiro-semestre/blob/main/doc/img/list-01-exer05.png)
+![exer 05](public/img/lista-de-atividade/lista-01/list-01-exer05.png)
 
 ---
 
