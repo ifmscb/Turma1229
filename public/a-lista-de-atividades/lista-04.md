@@ -17,7 +17,7 @@
 | Salário maior que R$ 1200,00 e igual ou menor a R$ 2000,00 | 25%           |
 | Salário maior que R$ 2000,00                               | 30%           |
 
-[ ] Done
+- [ ] Done
 
 ### 4. Faça um algoritmo que converta uma determinada quantia dada em reais para uma das moedas a seguir e sua cotação (de acordo com a escolha do usuário):
 
