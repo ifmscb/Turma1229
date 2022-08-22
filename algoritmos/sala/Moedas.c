@@ -6,51 +6,47 @@
 
 int main()
 {
-  float Reais , Franco = 2.75 , libra = 3.15 , dolar = 3.85 , alemao = 1.95;
+  float Reais, Franco = 2.75, libra = 3.15, dolar = 3.85, alemao = 1.95;
+  float CalcFranco, CalcLibra, CalcDolar, CalcAlemao;
   int valorDigitado;
-  char name[30];
-
-  printf("Digite seu nome: ");
-  gets(name);
 
   printf("Digite a quantia em reais: ");
   scanf("%f", &Reais);
-  
-  float CalcFranco , CalcLibra , CalcDolar , CalcAlemao;
-  
-  CalcFranco =   Franco / Reais; 
-  CalcLibra = libra / Reais;
-  CalcDolar = dolar / Reais;
-  CalcAlemao = alemao / Reais;
-  
+
+  CalcFranco = (Reais / Franco);
+
+  CalcLibra = (Reais / libra);
+
+  CalcDolar = (Reais / dolar);
+
+  CalcAlemao = (Reais / alemao);
+
   printf("Qual moeda deseja converter? 1.Franco\n");
   printf("Qual moeda deseja converter? 2.libra\n");
   printf("Qual moeda deseja converter? 3.Dolar\n");
   printf("Qual moeda deseja converter? 4.Alemao\n");
-  scanf("%i" , &valorDigitado );
-  
-  printf("%s \n", name);
+  scanf("%i", &valorDigitado);
 
-  switch(valorDigitado){
-  
-  case 1 :
-  printf("O valor convertido em moedas: %.2f" , CalcFranco); 
-  break;
-  
-  case 2 :
-  printf("O valor convertido em moedas: %.2f" , CalcLibra);
-  break;
-  
-  case 3 :
-  printf("O valor convertido em moedas : %.2f", CalcDolar);
-  break;
-  
-  case 4 :
-  printf("O valor convertido em moedas : %.2f", CalcAlemao);
-  break;
-  
-  default :
-  printf("Valor invalido");
+  switch (valorDigitado)
+  {
+
+  case 1:
+    printf("O valor convertido em moedas: %.3f", CalcFranco);
+    break;
+
+  case 2:
+    printf("O valor convertido em moedas: %.3f", CalcLibra);
+    break;
+
+  case 3:
+    printf("O valor convertido em moedas : %.3f", CalcDolar);
+    break;
+
+  case 4:
+    printf("O valor convertido em moedas : %.3f", CalcAlemao);
+    break;
+
+  default:
+    printf("Valor invalido");
   }
 }
-
