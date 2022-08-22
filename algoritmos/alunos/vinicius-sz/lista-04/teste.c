@@ -20,7 +20,6 @@ int main(void)
     scanf("%d", &idade);
  
     fflush(stdin);
-    system("clear");
     
  
     printf("Data de nascimento: ");
@@ -30,6 +29,5 @@ int main(void)
     printf("Idade: %d\n", idade);
     printf("Data de nascimento: "); puts(nascimento);
     return 0;
-    system("cls");
 
 }
