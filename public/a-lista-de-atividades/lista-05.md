@@ -2,7 +2,7 @@
 
 · Para homens: (72.7 \* altura) - 58
 
-· Para mulheres: (62.1 \* altura) -44.7
+· Para mulheres: (62.1 \* altura) - 44.7
 
 Ao final seu algoritmo deverá apresentar o peso atual do usuário e a diferença para o seu peso ideal.
 
