@@ -19,12 +19,12 @@ int main()
   scanf("%i", idade);
   system("cls");
 
-  if (idade <= 15 || idade < 16)
+  if (idade < 15 || idade <= 16)
   {
     printf("SISTEMA ELEITORAL DO INSITUTO NACIONAL DOS PREGUISOS (INP)\n");
     printf("==> Ainda nao consta como cidadao");
   }
-  else if (idade == 16 && idade >= 65)
+  else if (idade > 16 && idade < 65)
   {
     printf("SISTEMA ELEITORAL DO INSITUTO NACIONAL DOS PREGUISOS (INP)\n");
     printf("==> eleitor obrigatorio");
