@@ -5,6 +5,8 @@
 .breakpoints
 .ccls-cache
 .replit
+.d
+.o
 replit.nix
 main
 main-debug
