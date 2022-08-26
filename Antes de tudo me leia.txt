@@ -1,0 +1,9 @@
+## Importante
+
+antes de enviar ao github suas alterações faça o download do código atualizado dos demais colegas.
+
+execulte: git pull
+verifique suas aletrações: git status
+adicione a fila: git add (nome do arquivo ou . para adicionar todos de uma vez)
+comente suas alterações: git commit -m "uma alteração bacana e sim é pra escrever entre as aspas"
+mande para o servidor: git push

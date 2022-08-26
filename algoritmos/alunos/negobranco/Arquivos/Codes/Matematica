@@ -1,0 +1,3 @@
+O cálculo correto do valor com desconto é:
+
+end = preco - ( preco * desc / 100 );
