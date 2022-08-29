@@ -1,8 +1,8 @@
+#include <math.h>
+#include <stdbool.h>
 #include <stdio.h>
 #include <stdlib.h>
-#include <stdbool.h>
 #include <string.h>
-#include <math.h>
 
 int main()
 {
@@ -16,6 +16,8 @@ int main()
   printf("Digite seu salário (ex: 1000.00): ");
   scanf("%f", &money);
 
+  system("cls");
+  printf("Hello %s, welcome to the INSS discount calculation algorithm.\n", name);
   printf("Hi %s your money is %.2f\n", name, money);
 
   if (money <= 600.00)
@@ -27,22 +29,22 @@ int main()
   {
     inss = money * 0.2;
 
-    float Fmoney = money - inss;
+    money = money - inss;
 
-    printf("Hi %s your inss are: 20% \n",
-           name);
+    printf("Hi %s your inss are: %.2f \n",
+           name, inss);
 
     printf("Hi %s seu salario final foi de: %.2f",
            name,
-           Fmoney);
+           money);
   }
   else if (money > 1200.00 && money <= 2000.00)
   {
     inss = money * 0.25;
     money = money - inss;
 
-    printf("Hi %s your inss are: 25%\n",
-           name);
+    printf("Hi %s your inss are: %.2f \n",
+           name, inss);
 
     printf("Hi %s seu salario final foi de: %.2f",
            name,
@@ -53,8 +55,8 @@ int main()
     inss = money * 0.30;
     money = money - inss;
 
-    printf("Hi %s your inss are: 30%\n",
-           name);
+    printf("Hi %s your inss are: %.2f \n",
+           name, inss);
     printf("Hi %s seu salario final foi de: %.2f",
            name,
            money);
