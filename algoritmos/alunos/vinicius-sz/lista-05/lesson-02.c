@@ -23,22 +23,22 @@ int main()
   scanf("%i", &idade);
   system("cls");
 
-  if (idade == 5 || idade <= 7)
+  if (idade > 5 && idade <= 7)
   {
 
     printf("Hi %s\nCom base na sua idade tu pertence a categoria:\n==>Infantil A ", name);
   }
-  else if (idade == 8 || idade <= 10)
+  else if (idade >= 8 && idade <= 10)
   {
 
     printf("Hi %s\nCom base na sua idade tu pertence a categoria:\n==>Infantil B ", name);
   }
-  else if (idade == 11 || idade <= 13)
+  else if (idade >= 11 && idade <= 13)
   {
 
     printf("Hi %s\nCom base na sua idade tu pertence a categoria:\n==>Juvenil A ", name);
   }
-  else if (idade == 14 || idade <= 17)
+  else if (idade >= 14 && idade <= 17)
   {
 
     printf("Hi %s\nCom base na sua idade tu pertence a categoria:\n==>Juvenil B ", name);

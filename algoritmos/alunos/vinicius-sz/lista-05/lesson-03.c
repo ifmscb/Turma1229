@@ -13,10 +13,10 @@ int main()
   printf("SISTEMA ELEITORAL DO INSITUTO NACIONAL DOS PREGUISOS (INP)\n");
 
   printf("Digite seu nome: ");
-  scanf("%s", name);
+  scanf("%s", &name);
 
   printf("Digite sua idade(ex: 16): ");
-  scanf("%i", idade);
+  scanf("%i", &idade);
   system("cls");
 
   if (idade < 15 || idade <= 16)
