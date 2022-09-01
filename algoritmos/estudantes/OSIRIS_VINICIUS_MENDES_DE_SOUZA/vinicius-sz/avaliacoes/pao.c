@@ -1,11 +1,11 @@
-// importaÃ§Ã£o de bbliotecas
+// função de bbliotecas
+#include <math.h>
+#include <stdbool.h>
 #include <stdio.h>
 #include <stdlib.h>
-#include <stdbool.h>
 #include <string.h>
-#include <math.h>
 
-// funÃ§Ã£o principal
+// funçaõ principal
 int main()
 {
   float const valorPao = 0.25, valorBroa = 0.35;
