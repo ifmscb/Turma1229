@@ -14,7 +14,7 @@
 
 ### 4. Crie um algoritmo que imprima a tabela de conversão de graus Celsius-Fahrenheit para o intervalo desejado pelo usuário. O algoritmo deve solicitar ao usuário o limite superior e o limite inferior. A fórmula usada para conversão é:
 
-> Inicio será uma variavel em loop então ele recebe o valor da repetição 'i'
+> Inicio será uma variavel em loop então ele recebe o valor da repetição 'i' <br>
 Formula: F = 1.8 * (C ou 'i') + 32 
 
 - [ ] Done
