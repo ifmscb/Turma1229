@@ -11,12 +11,13 @@ void main(void){
 
 void welcome(){
   void script();
+  
   printf("Sistema de Detecção de Caractéris\n");
   script();
 }
 
 void script(){
-  char letra[30];
+  char letra;
   printf("Digite qualquer tecla: ");
   scanf("%s", &letra);
 
@@ -27,7 +28,7 @@ void script(){
   // maiusculo(letra);
 }
 
-char maiusculo(char letra){
+int maiusculo(char letra){
   if( letra >= 'A' || letra <= 'Z'){
     system("cls");
     printf("Letra Maiuscula");
@@ -35,7 +36,7 @@ char maiusculo(char letra){
   }
 }
 
-char maiusculo(char letra){
+int maiusculo(char letra){
   if( letra >= 'a' || letra <= 'z'){
     system("cls");
     printf("Letra Maiuscula");

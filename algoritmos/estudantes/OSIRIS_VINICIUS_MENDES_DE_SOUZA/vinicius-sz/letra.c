@@ -23,5 +23,3 @@ int verifica( char n){
 		printf("other");
 	}
 }
-
-
