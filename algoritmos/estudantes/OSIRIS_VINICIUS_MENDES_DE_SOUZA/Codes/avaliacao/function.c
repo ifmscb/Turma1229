@@ -81,7 +81,7 @@ void menu()
   else if (op == 0)
   {
     printf("Saindo ...");
-    system("stop");
+    system("exit");
   }
   else
   {
