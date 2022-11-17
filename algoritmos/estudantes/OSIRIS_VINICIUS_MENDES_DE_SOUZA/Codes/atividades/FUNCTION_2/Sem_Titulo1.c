@@ -4,31 +4,33 @@
 #include <string.h>
 #include <math.h>
 
-
-
-int main(){
+int main()
+{
 	void hello();
-	
+
 	hello();
-	
 }
 
-void hello(){
+void hello()
+{
 	bool verificaMaiusculo(char l);
 	char letra;
-	
+
 	printf("Digite uma letra\n");
 	scanf("%c", &letra);
-	
+
 	printf("resultado da funcao: %i", verificaMaiusculo(letra));
 }
 
-bool verificaMaiusculo(char l){
-	if(l >= 'a' && l <= 'z'){
+bool verificaMaiusculo(char l)
+{
+	if (l >= 'a' && l <= 'z')
+	{
 		printf("Letra minuscula \n");
 		return false;
 	}
-	else if(l >= 'A' && l <= 'Z'){
+	else if (l >= 'A' && l <= 'Z')
+	{
 		printf("Letra maiuscula \n");
 		return true;
 	}

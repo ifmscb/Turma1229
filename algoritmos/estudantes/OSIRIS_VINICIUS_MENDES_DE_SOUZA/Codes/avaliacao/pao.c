@@ -10,6 +10,7 @@ int main()
 {
   float const valorPao = 0.25, valorBroa = 0.35;
   float quantidadePao, quantidadeBroa;
+  float custoProducao45 = 0.45, contaPoupanca30 = 0.30, lucro = 0.25;
 
   printf("Quantos paes voce deseja ? : \n ");
   scanf("%f", &quantidadePao);
@@ -21,8 +22,6 @@ int main()
   float calcuBroa = quantidadeBroa * valorBroa;
 
   float totalcusto = calcuPao + calcuBroa;
-
-  float custoProducao45 = 0.45, contaPoupanca30 = 0.30, lucro = 0.25;
 
   float totalproducao = totalcusto * custoProducao45;
   float totalPoupanca = totalcusto * contaPoupanca30;

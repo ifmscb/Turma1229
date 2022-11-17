@@ -11,79 +11,87 @@ float totalHigiene = 0;
 int quantidadeTotal = 0, quantidadeLimpeza = 0, quantidadeAlimentos = 0;
 int quantidadeHigiene = 0;
 
-
 float lerPreco()
 {
 	float preco;
 	printf("Digite o preco do produto\n");
 	scanf("%f", &preco);
-	
+
 	return preco;
 }
 
-float lerQuantidade(){
+float lerQuantidade()
+{
 	int quantidade;
-	
+
 	printf("Digite a quantidade\n");
 	scanf("%i", &quantidade);
-	
+
 	return quantidade;
 }
 
-void produtoLimpeza(){
+void produtoLimpeza()
+{
 	system("cls");
 	int quantidade;
-	
+
 	quantidade = lerQuantidade();
 	quantidadeLimpeza += quantidade;
 	totalLimpeza += lerPreco() * quantidade;
 }
 
-produtoAlimentacao(){
+produtoAlimentacao()
+{
 	system("cls");
 	int quantidade;
-	
+
 	quantidade = lerQuantidade();
-	quantidadeAlimentos+= quantidade;
-	totalAlimentos+= lerPreco() * quantidade;
+	quantidadeAlimentos += quantidade;
+	totalAlimentos += lerPreco() * quantidade;
 }
 
-produtoHigiene(){
+produtoHigiene()
+{
 	system("cls");
 	int quantidade;
-	
+
 	quantidade = lerQuantidade();
 	quantidadeHigiene += quantidade;
 	totalHigiene += lerPreco() * quantidade;
 }
 
-void MenuPrincipal(){
+void MenuPrincipal()
+{
 	char letra1 = 'A';
 
-	do {
+	do
+	{
 		printf("---------------Menu Principal---------------\n");
 		printf("Digite a opcao desejada\n");
 		printf("L - Produto de Limpeza\n");
 		printf("A - Produto de Alimentacao\n");
 		printf("H - Produto de Higiene\n");
 		scanf("%c", &letra1);
-		
-		if(letra1 == 'L' || letra1 == 'l') {
+
+		if (letra1 == 'L' || letra1 == 'l')
+		{
 			printf("Produto de limpeza\n");
 			produtoLimpeza();
-		} else if(letra1 == 'A' || letra1 == 'a') {
-			printf("Produto de Alimentacao \n");
-			//produtoAlimentacao();
-		} else if(letra1 == 'H' || letra1 == 'h') {
-			printf("Produto de higiene\n");
-			//produtoHigiene();
-		} else if(letra1 == '@') {
-			
 		}
-	} while(letra1 != '@');
-	
+		else if (letra1 == 'A' || letra1 == 'a')
+		{
+			printf("Produto de Alimentacao \n");
+			// produtoAlimentacao();
+		}
+		else if (letra1 == 'H' || letra1 == 'h')
+		{
+			printf("Produto de higiene\n");
+			// produtoHigiene();
+		}
+	} while (letra1 != 'S');
 }
 
-int main() {
+int main()
+{
 	MenuPrincipal();
 }

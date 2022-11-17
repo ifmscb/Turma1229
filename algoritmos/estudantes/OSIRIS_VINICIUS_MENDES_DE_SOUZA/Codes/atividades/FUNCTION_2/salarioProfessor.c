@@ -23,9 +23,9 @@ float calculaDescontoInss(float salarioBruto)
 float calculaSalarioLiquido(float salarioBruto, float descontoInss)
 {
 	float salarioLiquido;
-	
+
 	salarioLiquido = salarioBruto - descontoInss;
-	
+
 	return salarioLiquido;
 }
 
@@ -33,34 +33,32 @@ void menu()
 {
 	int opcao, horas;
 	float salarioBruto, descontoInss, salarioLiquido;
-	
+
 	printf("-----------Calcula Salario Professor-----------\n");
 	printf("1. Para calcular seu salario\n");
 	printf("2. Para sair \n");
-	
+
 	scanf("%i", &opcao);
 
-	
-	if(opcao ==1)
+	if (opcao == 1)
 	{
 		system("cls");
 		printf("Digite a quantidade de horas trabalhadas\n");
 		scanf("%i", &horas);
-		
+
 		salarioBruto = calculaSalarioBruto(horas);
 		printf("Salario Bruto %.2f \n", salarioBruto);
-		
+
 		descontoInss = calculaDescontoInss(salarioBruto);
 		printf("Desconto INSS: %.2f \n", descontoInss);
-		
+
 		salarioLiquido = calculaSalarioLiquido(salarioBruto, descontoInss);
 		printf("Salario Liquido: %.2f \n", salarioLiquido);
-		
 	}
-	else if(opcao == 2)
+	else if (opcao == 2)
 	{
-		printf("saindo da aplicacao \n");	
-	}	
+		printf("saindo da aplicacao \n");
+	}
 }
 
 int main()

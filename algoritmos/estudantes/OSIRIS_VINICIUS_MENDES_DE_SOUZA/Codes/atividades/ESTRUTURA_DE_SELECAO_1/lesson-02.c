@@ -19,14 +19,18 @@ int main()
 
   float parcelaMin = sal * maxP;
 
-  if(parcelaMin < 100){
+  if (parcelaMin < 100)
+  {
     printf("%s Infelizmente nao possumimos propostas para voce", name);
-  } else if(parcelaMin > 100){
-    
+  }
+  else if (parcelaMin > 100)
+  {
+
     maxEmp = (parcelaMin * 36) * juros;
     printf("max: %.2f", maxEmp);
   }
-  else{
+  else
+  {
     printf("operation invalidad");
   }
 }
