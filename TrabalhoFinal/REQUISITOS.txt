@@ -1,0 +1,18 @@
+o Nome deve conter no mínimo 5 caracteres;
+
+o Email deve conter no mínimo 10 caracteres;
+o Email deve possuir uma ocorrência de "@";
+o Email deve possuir substring "mail";
+
+o Senha deve conter no mínimo 5 caracteres;
+o Senha deve obrigatoriamente possuir pelo menos uma letra minúscula, uma letra maiúscula, um número e um caractere especial;
+
+Seu algoritmo deve retornar:
+  * uma lista com todas as pessoas;
+  * uma lista para pessoas menores de idade;
+  * uma lista para pessoas maiores de idade;
+
+  * pessoa mais jovem;
+  * pessoa mais velha;
+
+  * média de idade das pessoas cadastradas;
