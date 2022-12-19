@@ -16,8 +16,8 @@ int main()
   system("pause");
   system("cls");
 
-  printf("Digite seu nome: ", name);
-  gets(name);
+  printf("Digite seu nome: ");
+  fgets(name, 30, stdin);
 
   printf("Digite a tua idade(ex: 16): ");
   scanf("%i", &idade);

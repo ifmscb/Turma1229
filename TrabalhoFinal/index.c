@@ -35,17 +35,14 @@ int main()
   // função para retornar os dados
   int returnData(char *name, int *age, char *mail, char *password);
 
-  for (int i = 0; i < 10; i++)
-  {
-    printf(" Cadastro de Usuario - [id: %2d]\n", i);
-    reciveName(name[i]);
-    reciveAge(age[i]);
-    reciveMail(mail[i]);
-    recivePassword(password[i]);
-    // for (int j = 0; j < 100; j++)
-    // {
-    // }
-  }
+  printf(" Cadastro de Usuario ");
+  reciveName(name);
+  reciveMail(mail);
+  recivePassword(password);
+  reciveAge(age);
+  // for (int j = 0; j < 100; j++)
+  // {
+  // }
 
   returnData(name, age, mail, password);
 }
@@ -55,6 +52,8 @@ int reciveName(char *name)
 {
   printf("Digite o nome: ");
   fgets(name, 100, stdin);
+
+  printf("Nome digitado: %s", name);
 
   // verifica se o nome é válido
   if (setUserName(name) == 0)
@@ -72,6 +71,8 @@ int reciveAge(int *age)
   printf("Digite a idade: ");
   scanf("%d", &age);
 
+  printf("Idade digitada: %d", age);
+
   // verifica se a idade é válida
   if (setAge(age) == 0)
   {
@@ -87,6 +88,8 @@ int reciveMail(char *mail)
 {
   printf("Digite o email: ");
   scanf("%s", mail);
+
+  printf("Email digitado: %s", mail);
 
   // verifica se o email é válido
   if (setUserMail(mail) == 0)
@@ -104,6 +107,7 @@ int recivePassword(char *password)
   printf("Digite a senha: ");
   fgets(password, 100, stdin);
 
+  printf("Senha digitada: %s", password);
   // verifica se a senha é válida
   if (setPassword(password) == 0)
   {
@@ -165,7 +169,7 @@ int setPassword(char *password)
   // uma letra maiúscula, um número e um caractere especial;
 
   // verifica se a senha é válida
-  if (strlen(password) < 5 && strstr(password, "a-z") == NULL && strstr(password, "A-Z") == NULL && strstr(password, "0-9") == NULL && strstr(password, "!@#$%&*"))
+  if (strlen(password) < 5 && strstr(password, 'a-z') == NULL && strstr(password, 'A-Z') == NULL && strstr(password, '0-9') == NULL && strstr(password, '!@#$%&*'))
   {
     printf("Senha invalida, digite novamente.\n");
     return 0;

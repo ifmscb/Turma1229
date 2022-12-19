@@ -7,7 +7,6 @@
 int main()
 {
 	float salario, totalArrecadado, inss = 0;
-	;
 	int i;
 
 	for (i = 0; i < 5; i++)
