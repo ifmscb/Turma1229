@@ -1,3 +1,18 @@
+# vscode
+.vscode
+
+# Replit
+.breakpoints
+.ccls-cache
+.replit
+.d
+.o
+replit.nix
+main
+main-debug
+main-template.c
+Makefile
+
 # Prerequisites
 *.d
 
